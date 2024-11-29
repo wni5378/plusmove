@@ -1,0 +1,91 @@
+//  Font Awesome
+@import '../css/all.min.css';
+
+//  Variables
+@import '_variables';
+
+//  MDB
+@import 'mdb-ui-kit/css/mdb.min.css';
+
+body {
+    font-family: "Ubuntu Sans", sans-serif !important;
+    font-size: 16px !important;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    min-height: 100vh !important;
+}
+
+.logo {
+    height: 25px;
+    width: auto;
+    margin-bottom: 2px;
+}
+
+.role {
+    color: $white
+}
+
+.role-admin {
+    background-color: $red-500;
+}
+
+.role-admin-border-bottom {
+    border-bottom: 2px solid $red-500;
+}
+
+.role-manager {
+    background-color: $orange-500;
+}
+
+.role-manager-border-bottom {
+    border-bottom: 2px solid $orange-500;
+}
+
+.role-scheduling {
+    background-color: $green-500;
+}
+
+.role-scheduling-border-bottom {
+    border-bottom: 2px solid $green-500;
+}
+
+.role-user {
+    background-color: #01579B;
+}
+
+.role-user-border-bottom {
+    border-bottom: 2px solid #01579B;
+}
+
+.role-customer {
+    background-color: #616161;
+}
+
+.role-customer-border-bottom {
+    border-bottom: 2px solid #616161;
+}
+
+.nav-active-border-bottom {
+    border-bottom: 2px solid #0D47A1;
+}
+
+.nav-inactive-border-bottom {
+    border-bottom: 2px solid transparent;
+}
+
+.ubuntu-sans {
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.ubuntu-sans-regular {
+    font-weight: 400;
+}
+
+.ubuntu-sans-bold {
+    font-weight: 600;
+}
+
+.ubuntu-sans-black {
+    font-weight: 800;
+}
